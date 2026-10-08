@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">What does your agent cost the planet?</title>
+<desc id="desc">One run of your AI agent makes five things. Your invoice and logs show two: tokens and cost. Three need an estimate: energy, carbon from the power grid, and water to cool the servers.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+  <marker id="arrowAccent" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#eb6c36"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="440" fill="#f5f5f5"/>
+<text x="40" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">What does your agent cost the planet?</text>
+<text x="40" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">ONE RUN OF YOUR AI AGENT, TWO BILLS</text>
+<rect x="450" y="96" width="300" height="56" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="600.0" y="121.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Your AI agent</text>
+<text x="600.0" y="134.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">one run, many turns</text>
+<line x1="600" y1="152" x2="600" y2="228" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="612" y="196" text-anchor="start" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#4f5d75">every run makes all five</text>
+<text x="40" y="214" text-anchor="start" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#4f5d75">THE BILL YOU SEE</text>
+<text x="1160" y="214" text-anchor="end" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#4f5d75">THE BILL YOU DO NOT SEE</text>
+<rect x="40" y="232" width="208" height="76" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="46" y="238" width="35" height="16" rx="4" fill="#ececec"/>
+<text x="63.5" y="250" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">SEEN</text>
+<text x="144.0" y="267.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Tokens</text>
+<text x="144.0" y="280.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">words the model reads</text>
+<rect x="268" y="232" width="208" height="76" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="274" y="238" width="35" height="16" rx="4" fill="#ececec"/>
+<text x="291.5" y="250" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">SEEN</text>
+<text x="372.0" y="267.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Cost</text>
+<text x="372.0" y="280.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">on your invoice</text>
+<rect x="496" y="232" width="208" height="76" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+<rect x="502" y="238" width="45" height="16" rx="4" fill="#ececec"/>
+<text x="524.5" y="250" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">HIDDEN</text>
+<text x="600.0" y="267.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Energy</text>
+<text x="600.0" y="280.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">electricity used</text>
+<rect x="724" y="232" width="208" height="76" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+<rect x="730" y="238" width="45" height="16" rx="4" fill="#ececec"/>
+<text x="752.5" y="250" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">HIDDEN</text>
+<text x="828.0" y="267.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Carbon</text>
+<text x="828.0" y="280.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">from the power grid</text>
+<rect x="952" y="232" width="208" height="76" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+<rect x="958" y="238" width="45" height="16" rx="4" fill="#ececec"/>
+<text x="980.5" y="250" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">HIDDEN</text>
+<text x="1056.0" y="267.4" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Water</text>
+<text x="1056.0" y="280.4" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">to cool the servers</text>
+<text x="600" y="340" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#4f5d75">YOUR INVOICE SHOWS TWO OF THE FIVE.</text>
+<line x1="40" y1="362" x2="1160" y2="362" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="40" y="388" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">KIND</text>
+<rect x="120" y="378" width="35" height="16" rx="4" fill="#ececec"/>
+<text x="137.5" y="390" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">SEEN</text>
+<text x="165" y="390" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">on your invoice or in your logs</text>
+<rect x="640.0" y="378" width="45" height="16" rx="4" fill="#ececec"/>
+<text x="662.5" y="390" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">HIDDEN</text>
+<text x="695.0" y="390" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">needs an estimate, shown as a range</text>
+</svg>
